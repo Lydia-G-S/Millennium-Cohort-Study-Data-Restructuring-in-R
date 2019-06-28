@@ -1,4 +1,5 @@
 #Restructuring data to end up with a longitudinally merged data set structured as 1 row per cohort member. See README file for further information. 
+#Authors: Lydia Gabriela Speyer & Hildigunnur Anna Hall
 
 #Millennium Cohort Study data were downloaded from the UK Data Service (https://ukdataservice.ac.uk/)
 
