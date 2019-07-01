@@ -123,7 +123,7 @@ id_list_mcs5_geographically_linked_data_sub[id_list_mcs5_geographically_linked_d
 
 #mcs5_parent_cm_interview_sub
 id_list_mcs5_parent_cm_interview_sub <- data.frame(table(mcs5_parent_cm_interview_sub$MCSID))
-id_list_mcs5_parent_cm_interview_sub[id_list_mcs5_parent_cm_interview_sub$Freq > 1,] #doesn't need restructuring
+id_list_mcs5_parent_cm_interview_sub[id_list_mcs5_parent_cm_interview_sub$Freq > 1,] #needs restructuring
 
 #mcs5_parent_derived_sub
 id_list_mcs5_parent_derived_sub <- data.frame(table(mcs5_parent_derived_sub$MCSID))
@@ -153,7 +153,7 @@ id_list_mcs6_family_derived_sub[id_list_mcs6_family_derived_sub$Freq > 1,] #only
 
 #mcs6_parent_cm_interview_sub 
 id_list_mcs6_parent_cm_interview_sub <- data.frame(table(mcs6_parent_cm_interview_sub$MCSID))
-id_list_mcs6_parent_cm_interview_sub[id_list_mcs6_parent_cm_interview_sub$Freq > 1,] #doesn't need restructuring
+id_list_mcs6_parent_cm_interview_sub[id_list_mcs6_parent_cm_interview_sub$Freq > 1,] #needs restructuring
 
 #mcs6_parent_derived_sub
 id_list_mcs6_parent_derived_sub <- data.frame(table(mcs6_parent_derived_sub$MCSID))
